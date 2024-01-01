@@ -1,6 +1,6 @@
 # osrm_table_api_frontend
 
-![OSRM Route API: Free turn by turn directions and polylines](https://blog.afi.io/content/images/size/w1600/2023/11/osrm--2-.png "OSRM Route API: Free turn by turn directions and polylines")
+![OSRM Table API: Free and open source distance matrix API](https://blog.afi.io/content/images/size/w1600/2024/01/find-restaurant.png "OSRM Table API: Free and open source distance matrix API")
 
 Taken from: 
 - [Introduction to OSRM: Setting up osrm-backend using Docker (part 1 of 4)](https://www.afi.io/blog/introduction-to-osrm-setting-up-osrm-backend-using-docker/)
