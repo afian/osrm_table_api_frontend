@@ -1,0 +1,125 @@
+.App {
+  position: relative;
+  display: flex;
+
+  .address-box {
+    width: 390px;
+    padding: 16px;
+    position: absolute;
+    top: 24px;
+    left: 16px;
+    height: 90%;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 16px;
+    label {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+    }
+    .filter-box {
+      display: flex;
+      column-gap: 16px;
+      .filter-element {
+        margin-bottom: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border: 1px solid #E0E0E0;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        width: 170px;
+        select {
+          height: 44px;
+          width: 122px;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          background: transparent;
+          background-image: url('./assets/images/arrow-down.png');
+          background-repeat: no-repeat;
+          background-position-x: 100%;
+          background-position-y: 18px;
+          border: none;
+          padding-left: 8px;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 24px;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+    }
+    .address-box-search {
+      margin-top: 4px;
+      margin-bottom: 12px;
+      display: flex;
+      column-gap: 12px;
+      button {
+        flex: 1;
+        padding: 6px 10px;
+        border: 0;
+        border-radius: 8px;
+        background-color: #1961E4;
+        cursor: pointer;
+        &:hover {
+          background-color: #88abe9;
+        }
+        &:disabled {
+          background-color: gray;
+          cursor: not-allowed;
+        }
+      }
+    }
+    .restaurant-list {
+      max-height: 85%;
+      overflow-y: auto;
+      .restaurant-item {
+        width: calc(100% - 24px);
+        overflow: hidden;
+        margin-bottom: 12px;
+        padding: 12px;
+        border-radius: 8px;
+        background-color: #F4F4F4;
+        cursor: pointer;
+        &:hover, &.active { 
+          background-color: #d5d5d5;
+        }
+        p {
+          margin-top: 6px;
+          margin-bottom: 0;
+        }
+        .name {
+          font-weight: 700;
+          line-height: 24px;
+        }
+        .address {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16px;
+        }
+        .detail-info {
+          display: flex;
+          align-items: center;
+          column-gap: 12px;
+          .left-image {
+            width: 56px;
+            height: 56px;
+            object-fit: cover;
+            border-radius: 4px;
+          }
+          .right-info {
+            .rating {
+              display: flex;
+              align-items: center;
+              column-gap: 2px;
+              margin-bottom: 5px;
+            }
+            p {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
