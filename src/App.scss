@@ -70,10 +70,10 @@
         }
       }
     }
-    .restaurant-list {
+    .stop-list {
       max-height: 85%;
       overflow-y: auto;
-      .restaurant-item {
+      .stop-item {
         width: calc(100% - 24px);
         overflow: hidden;
         margin-bottom: 12px;
@@ -110,9 +110,15 @@
           .right-info {
             .rating {
               display: flex;
+              min-height: 31px;
               align-items: center;
               column-gap: 2px;
               margin-bottom: 5px;
+
+              span {
+                display: inline-block;
+                margin-top: 3px;
+              }
             }
             p {
               margin: 0;

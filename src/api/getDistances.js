@@ -12,9 +12,8 @@ export default async function getDistances(
   coordinates
 ) {
   try {
-    const response = await fetch(
-      `https://router.project-osrm.org/table/v1/car/${coordinates}?sources=0&destinations=all&annotations=distance`
-    );
+    const apiUrl = `https://router.project-osrm.org/table/v1/car/${coordinates}?sources=0&destinations=all&annotations=distance`;
+    const response = await fetch(apiUrl);
 
     return response.json();
   } catch (error) {
