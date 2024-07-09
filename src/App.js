@@ -151,7 +151,7 @@ export default function App() {
         </Marker>
         {stops.map(({ geometry, name, reference }) => (
           <Marker key={reference} longitude={geometry.location.lng} latitude={geometry.location.lat}>
-            <img alt={name} src={reference === active ? StopActiveIcon : StopIcon} style={{ width: 20 }} />
+            <img alt={name} src={reference === active ? StopActiveIcon : StopIcon} style={{ width: 30 }} />
           </Marker>
         ))}
       </Map>

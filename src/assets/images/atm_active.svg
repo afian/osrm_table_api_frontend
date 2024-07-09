@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet">
-<path d="M116 4H12c-4.42 0-8 3.58-8 8v104c0 4.42 3.58 8 8 8h104c4.42 0 8-3.58 8-8V12c0-4.42-3.58-8-8-8z" fill="#194fa5">
-</path>
-<path d="M109.7 4H11.5A7.555 7.555 0 0 0 4 11.5v97.9c-.01 4.14 3.34 7.49 7.48 7.5H109.6c4.14.01 7.49-3.34 7.5-7.48V11.5c.09-4.05-3.13-7.41-7.18-7.5h-.22z" fill="#2262dd">
-</path>
-<path fill="#0a3880" d="M4 36h120v56H4z">
-</path>
-<g fill="#fafafa">
-<path d="M21.09 45.03h8.21l14.26 37.95h-7.9l-3.18-9.06H17.96l-3.18 9.06h-7.9l14.21-37.95zm9.06 22.31l-3.34-9.54l-1.38-4.56h-.42l-1.38 4.56l-3.39 9.54h9.91z">
-</path>
-<path d="M50.57 51.81h-10.6v-6.78h28.36v6.78h-10.6v31.16h-7.15V51.81z">
-</path>
-<path d="M74.05 45.03h9.22l10.07 26.66h.42l10.07-26.66h9.28v37.95h-7.1V64.27l.42-6.31h-.42l-9.65 25.02H90.8l-9.7-25.02h-.42l.42 6.31v18.71h-7.05V45.03z">
-</path>
-</g>
-<path fill="#092c56" d="M117.1 36h6.9v56h-6.9z">
-</path>
-<path d="M39.7 12.9c0-2.3-1.6-3-10.8-2.7c-7.7.3-11.5 1.2-13.8 4c-1.9 2.3-2.3 5.6-2.6 8.4c-.2 2.2-2.2 14.9 3.5 11.2c.68-.45 1.23-1.07 1.6-1.8c1.2-2.1 1.9-3.5 3.3-5.6c5.3-8.6 18.8-10.5 18.8-13.5z" opacity=".3" fill="#ffffff">
-</path>
-</svg>
+<svg width="52" height="56" viewBox="0 0 52 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_2265_7290)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.8571 4C9.7269 4 8 5.7269 8 7.85714V36.1429C8 38.2731 9.7269 40 11.8571 40H22.5362L24.3302 43.1073C25.0725 44.393 26.9283 44.393 27.6706 43.1073L29.4645 40H40.1429C42.2731 40 44 38.2731 44 36.1429V7.85714C44 5.7269 42.2731 4 40.1429 4H11.8571Z" fill="#c7116d"/>
+<path d="M23.8332 26V20H20.8332V18H28.8332V20H25.8332V26H23.8332ZM12.6665 26V19.3333C12.6665 18.9556 12.7943 18.6389 13.0498 18.3833C13.3054 18.1278 13.6221 18 13.9998 18H17.9998C18.3776 18 18.6943 18.1278 18.9498 18.3833C19.2054 18.6389 19.3332 18.9556 19.3332 19.3333V26H17.3332V24H14.6665V26H12.6665ZM14.6665 22H17.3332V20H14.6665V22ZM30.6665 26V19.3333C30.6665 18.9556 30.7943 18.6389 31.0498 18.3833C31.3054 18.1278 31.6221 18 31.9998 18H37.9998C38.3776 18 38.6943 18.1278 38.9498 18.3833C39.2054 18.6389 39.3332 18.9556 39.3332 19.3333V26H37.3332V20H35.9998V24.6667H33.9998V20H32.6665V26H30.6665Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_dd_2265_7290" x="0.285714" y="0.142857" width="51.4286" height="57.4286" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3.85714"/>
+<feGaussianBlur stdDeviation="3.85714"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2265_7290"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3.85714"/>
+<feGaussianBlur stdDeviation="3.85714"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_2265_7290" result="effect2_dropShadow_2265_7290"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_2265_7290" result="shape"/>
+</filter>
+</defs>
+</svg>
